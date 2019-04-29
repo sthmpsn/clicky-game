@@ -1,0 +1,17 @@
+nav {
+    height: 350px;
+}
+#nav-background {
+    background-image: url("../../assets/images/Simpsons_cast.png");
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+    width: 100vw;
+    opacity: .3;
+    transform: scale(.90, 1);
+}
+
+#brand {
+    transform: scale(.5, .5);
+
+}

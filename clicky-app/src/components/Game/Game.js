@@ -12,22 +12,22 @@ class Game extends React.Component {
     };
 
     selectCard = (id) => {
-        console.log(id + "Card was selected");
+        console.log(id + " Card was selected");
     }
 
     render() {
         return (
-            <section id="sec-game" className="container">
+            <section id="sec-game" className="container my-5">
                 <div className="row">
-                    <div className="col-12">
                     {this.state.characters.map(char => (
                         <Card 
                             id={char.id}
+                            key={char.id}
                             name={char.name}
                             image={char.image}
+                            selectCard={this.selectCard}
                         />
                     ))}
-                    </div>
                 </div>
             </section>
         );

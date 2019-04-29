@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Simpsons';
+    src: url('../../assets/font/Simpsonfont.ttf');
+}
+
+.simpson-red {
+    color:#ef2d30;
+    font-family: 'Simpsons';
+    font-weight: bold;
+}
+
+.simpson-yellow {
+    color: #ffd521;
+    font-family: 'Simpsons';
+    font-weight: bold;
+}
