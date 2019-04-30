@@ -11,9 +11,45 @@ class Game extends React.Component {
         topScore: 0
     };
 
-    selectCard = (id) => {
-        console.log(id + " Card was selected");
+
+    componentWillMount() {
+        // New Game
+        this.shuffleCards();
     }
+
+    shuffleCards = () => {
+        this.state.characters.sort( () => Math.random() - 0.5);
+        this.setState({
+            characters: characters
+        });
+    }
+
+    selectCard = (id) => {
+        this.shuffleCards();
+        console.log(id + " Card was selected");
+            // check is the card's "clicked" property is set to true
+            this.state.characters.forEach(char => {
+                if (id === char.id){
+                    console.log("They Match!");
+                }else{
+                    console.log("Not the id you're looking for");
+                }
+            });
+
+
+            
+                //if false
+                    // set the click property of the id to true
+                // else (true)
+                    // game over();
+        }
+
+
+
+    gameOver = () => {
+        // Game Over logic
+    }
+
 
     render() {
         return (
@@ -26,6 +62,7 @@ class Game extends React.Component {
                             name={char.name}
                             image={char.image}
                             selectCard={this.selectCard}
+                            clicked={char.clicked}
                         />
                     ))}
                 </div>

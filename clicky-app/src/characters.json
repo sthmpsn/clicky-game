@@ -2,61 +2,73 @@
   {
     "id": 1,
     "name": "Marge1",
-    "image": "http://assets.stickpng.com/thumbs/5a0c40ca5a997e1c2cea1170.png"
+    "image": "http://assets.stickpng.com/thumbs/5a0c40ca5a997e1c2cea1170.png",
+    "clicked": false
   },
   {
     "id": 2,
     "name": "Homer1",
-    "image": "http://assets.stickpng.com/thumbs/5a0c40a65a997e1c2cea116c.png"
+    "image": "http://assets.stickpng.com/thumbs/5a0c40a65a997e1c2cea116c.png",
+    "clicked": false
   },
   {
     "id": 3,
     "name": "Bart1",
-    "image": "http://assets.stickpng.com/thumbs/580b57fbd9996e24bc43bd1c.png"
+    "image": "http://assets.stickpng.com/thumbs/580b57fbd9996e24bc43bd1c.png",
+    "clicked": false
   },
   {
     "id": 4,
     "name": "Lisa1",
-    "image": "http://assets.stickpng.com/thumbs/5a0c40b85a997e1c2cea116e.png"
+    "image": "http://assets.stickpng.com/thumbs/5a0c40b85a997e1c2cea116e.png",
+    "clicked": false
   },
   {
     "id": 5,
     "name": "Bart2",
-    "image": "http://assets.stickpng.com/thumbs/580b57fbd9996e24bc43bd17.png"
+    "image": "http://assets.stickpng.com/thumbs/580b57fbd9996e24bc43bd17.png",
+    "clicked": false
   },
   {
     "id": 6,
     "name": "Homer2",
-    "image": "http://assets.stickpng.com/thumbs/5a0c409d5a997e1c2cea116b.png"
+    "image": "http://assets.stickpng.com/thumbs/5a0c409d5a997e1c2cea116b.png",
+    "clicked": false
   },
   {
     "id": 7,
     "name": "Marge-Homer",
-    "image": "http://assets.stickpng.com/thumbs/5a0c408a5a997e1c2cea1169.png"
+    "image": "http://assets.stickpng.com/thumbs/5a0c408a5a997e1c2cea1169.png",
+    "clicked": false
   },
   {
     "id": 8,
     "name": "Bart3",
-    "image": "http://assets.stickpng.com/thumbs/580b57fbd9996e24bc43bd18.png"
+    "image": "http://assets.stickpng.com/thumbs/580b57fbd9996e24bc43bd18.png",
+    "clicked": false
   },
   {
     "id": 9,
     "name": "Bart4",
-    "image": "http://assets.stickpng.com/thumbs/580b57fbd9996e24bc43bd1b.png"
+    "image": "http://assets.stickpng.com/thumbs/580b57fbd9996e24bc43bd1b.png",
+    "clicked": false
   },
   {
     "id": 10,
     "name": "family",
-    "image": "http://assets.stickpng.com/thumbs/5a0c40db5a997e1c2cea1171.png"
+    "image": "http://assets.stickpng.com/thumbs/5a0c40db5a997e1c2cea1171.png",
+    "clicked": false
   },
   {
     "id": 11,
     "name": "Maggie2",
-    "image": "http://assets.stickpng.com/thumbs/5a0c40c15a997e1c2cea116f.png"
+    "image": "http://assets.stickpng.com/thumbs/5a0c40c15a997e1c2cea116f.png",
+    "clicked": false
   },
   {
     "id": 12,
     "name": "Krusty",
-    "image": "http://www.stickpng.com/assets/thumbs/5a0c40b05a997e1c2cea116d.png"
+    "image": "http://www.stickpng.com/assets/thumbs/5a0c40b05a997e1c2cea116d.png",
+    "clicked": false
   }
 ]
