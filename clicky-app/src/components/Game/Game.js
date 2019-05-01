@@ -13,15 +13,13 @@ class Game extends React.Component {
         shakeClass: 'shake'
     };
 
-
-
     componentWillMount() {
         // On site load start new game
         this.newGame();
     }
 
     shuffleCards = () => {
-        this.state.characters.sort( () => Math.random() - 0.5);
+        this.state.characters.sort(() => Math.random() - 0.5);
         this.setState({
             characters: characters
         });
@@ -30,65 +28,60 @@ class Game extends React.Component {
     selectCard = (id) => {
         this.shuffleCards();
         console.log(id + " Card was selected");
-            // check is the card's "clicked" property is set to true
-            this.state.characters.forEach(char => {
-                if (id === char.id){
-                    console.log(char.name + " matches: ID " + char.id);
-                    if(char.clicked){
-                        return this.gameOver();
-                    }else{
+        // check is the card's "clicked" property is set to true
+        this.state.characters.forEach(char => {
+            if (id === char.id) {
+                console.log(char.name + " matches: ID " + char.id);
+                if (char.clicked) {
+                    return this.gameOver();
+                } else {
                     char.clicked = true;
-                    this.setState({score: this.state.score + 1});
+                    this.setState({ score: this.state.score + 1 });
                     console.log(char.name + " clicked value is set to " + char.clicked);
-                    }
                 }
-            });
-        }
-
+            }
+        });
+    }
 
     newGame = () => {
         // Reset the score to 0 for new game
-        this.setState({score: 0});
+        this.setState({ score: 0 });
         // Reset the shakeClass style to be empty
-        this.setState({shakeClass: ''});
+        this.setState({ shakeClass: '' });
         this.shuffleCards();
-        
+
         this.state.characters.forEach(char => {
             char.clicked = false;
-            console.log(char.name + " click value set to " +char.clicked);
+            console.log(char.name + " click value set to " + char.clicked);
         })
     }
 
     gameOver = () => {
         // Game Over logic
-        this.setState({shakeClass: 'shake'});
+        this.setState({ shakeClass: 'shake' });
 
-        
-        if(this.state.topScore < this.state.score){
-            this.setState({topScore: this.state.score});
+        if (this.state.topScore < this.state.score) {
+            this.setState({ topScore: this.state.score });
         }
         setTimeout(
-            function(){
+            function () {
                 this.newGame();
             }
-            .bind(this),
+                .bind(this),
             1000
         );
-
-
     }
-
 
     render() {
         return (
             <section id="sec-game" className="container">
                 <div className="row d-flex justify-content-center">
-                    <Scoreboard 
+                    <Scoreboard
                         score={this.state.score}
                         topScore={this.state.topScore}
                     />
                     {this.state.characters.map(char => (
-                        <Card 
+                        <Card
                             id={char.id}
                             key={char.id}
                             name={char.name}
