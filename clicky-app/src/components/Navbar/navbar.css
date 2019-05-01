@@ -13,5 +13,14 @@ nav {
 
 #brand {
     transform: scale(.5, .5);
+}
+
+#titleBox {
+    opacity: .5;
+}
+
+#titleBox a {
+    text-decoration: none;
+    color: inherit;
 
 }

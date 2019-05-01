@@ -7,10 +7,14 @@
     color:#ef2d30;
     font-family: 'Simpsons';
     font-weight: bold;
+    text-shadow: 2px 2px #ffd521;
+    
 }
 
 .simpson-yellow {
     color: #ffd521;
     font-family: 'Simpsons';
     font-weight: bold;
+    text-shadow: 2px 2px #000000;
+    font-size: 2rem;
 }
