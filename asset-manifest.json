@@ -1,19 +1,26 @@
 {
   "files": {
-    "main.css": "/clicky-game/static/css/main.e8646917.chunk.css",
-    "main.js": "/clicky-game/static/js/main.3cfd7944.chunk.js",
-    "main.js.map": "/clicky-game/static/js/main.3cfd7944.chunk.js.map",
-    "runtime~main.js": "/clicky-game/static/js/runtime~main.27874bd3.js",
-    "runtime~main.js.map": "/clicky-game/static/js/runtime~main.27874bd3.js.map",
-    "static/js/2.2d0aaf20.chunk.js": "/clicky-game/static/js/2.2d0aaf20.chunk.js",
-    "static/js/2.2d0aaf20.chunk.js.map": "/clicky-game/static/js/2.2d0aaf20.chunk.js.map",
+    "main.css": "/clicky-game/static/css/main.9be8a34d.chunk.css",
+    "main.js": "/clicky-game/static/js/main.8a519bd2.chunk.js",
+    "main.js.map": "/clicky-game/static/js/main.8a519bd2.chunk.js.map",
+    "runtime-main.js": "/clicky-game/static/js/runtime-main.7f307a6b.js",
+    "runtime-main.js.map": "/clicky-game/static/js/runtime-main.7f307a6b.js.map",
+    "static/js/2.b2c48ed2.chunk.js": "/clicky-game/static/js/2.b2c48ed2.chunk.js",
+    "static/js/2.b2c48ed2.chunk.js.map": "/clicky-game/static/js/2.b2c48ed2.chunk.js.map",
     "index.html": "/clicky-game/index.html",
-    "precache-manifest.723a65a6bd244db82f73469b53cee283.js": "/clicky-game/precache-manifest.723a65a6bd244db82f73469b53cee283.js",
+    "precache-manifest.3680ab2c4b98c9b1c8c2b3366bb84b18.js": "/clicky-game/precache-manifest.3680ab2c4b98c9b1c8c2b3366bb84b18.js",
     "service-worker.js": "/clicky-game/service-worker.js",
-    "static/css/main.e8646917.chunk.css.map": "/clicky-game/static/css/main.e8646917.chunk.css.map",
+    "static/css/main.9be8a34d.chunk.css.map": "/clicky-game/static/css/main.9be8a34d.chunk.css.map",
+    "static/js/2.b2c48ed2.chunk.js.LICENSE.txt": "/clicky-game/static/js/2.b2c48ed2.chunk.js.LICENSE.txt",
     "static/media/wrapper.css": "/clicky-game/static/media/Simpsonfont.48d36fbf.ttf",
     "static/media/navbar.css": "/clicky-game/static/media/Simpsons_cast.d6f83ca3.png",
     "static/media/brand1.png": "/clicky-game/static/media/brand1.2c1b7a58.png",
     "static/media/personal-use.gif": "/clicky-game/static/media/personal-use.4678d644.gif"
-  }
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7f307a6b.js",
+    "static/js/2.b2c48ed2.chunk.js",
+    "static/css/main.9be8a34d.chunk.css",
+    "static/js/main.8a519bd2.chunk.js"
+  ]
 }

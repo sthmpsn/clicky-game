@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d0c26e29981111787b212302e22fcd13",
+    "revision": "7067648216b2e2ce85d7f86b6a66ac80",
     "url": "/clicky-game/index.html"
   },
   {
-    "revision": "9c51e344c2d8225615c4",
-    "url": "/clicky-game/static/css/main.e8646917.chunk.css"
+    "revision": "9077da4dcaa0d5d4849e",
+    "url": "/clicky-game/static/css/main.9be8a34d.chunk.css"
   },
   {
-    "revision": "214ee3e0b25f309e1a47",
-    "url": "/clicky-game/static/js/2.2d0aaf20.chunk.js"
+    "revision": "0fb900e5d166ae7b2d09",
+    "url": "/clicky-game/static/js/2.b2c48ed2.chunk.js"
   },
   {
-    "revision": "9c51e344c2d8225615c4",
-    "url": "/clicky-game/static/js/main.3cfd7944.chunk.js"
+    "revision": "809f8196affeaac0e5176b72b79c267c",
+    "url": "/clicky-game/static/js/2.b2c48ed2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "265538ab0e4606d350e6",
-    "url": "/clicky-game/static/js/runtime~main.27874bd3.js"
+    "revision": "9077da4dcaa0d5d4849e",
+    "url": "/clicky-game/static/js/main.8a519bd2.chunk.js"
+  },
+  {
+    "revision": "e02dc1ba9a7ebbae3092",
+    "url": "/clicky-game/static/js/runtime-main.7f307a6b.js"
   },
   {
     "revision": "48d36fbfec5c14160165bc9f75f4af05",
