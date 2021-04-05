@@ -1,6 +1,6 @@
 import React from "react";
 import "./navbar.css";
-import brand from "../../assets/images/brand1.png";
+import brand from "../../assets/images/simpsons/brand1.png";
 
 
 function Navbar(props) {

@@ -2,7 +2,7 @@ nav {
     height: 350px;
 }
 #nav-background {
-    background-image: url("../../assets/images/Simpsons_cast.png");
+    background-image: url("../../assets/images/simpsons/Simpsons_cast.jpg");
     background-size: cover;
     position: absolute;
     height: 100%;

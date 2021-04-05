@@ -1,6 +1,6 @@
 import React from "react";
 import "./footer.css";
-import personalUse from "../../assets/images/personal-use.gif";
+import personalUse from "../../assets/images/simpsons/personal-use.jpg";
 
 function Footer() {
     return (
